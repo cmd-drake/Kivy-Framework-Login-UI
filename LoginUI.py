@@ -26,7 +26,7 @@ class LoginUI(GridLayout):
 		self.username.focus=True
 		self.add_widget(self.username)
 		self.add_widget(Label(text="Password: "))
-		self.password = TextInput(multiline=False,write_tab=False)
+		self.password = TextInput(multiline=False,write_tab=False, password=True)
 		self.add_widget(self.password)
 
 
